@@ -30,7 +30,10 @@ Demo video available in /demo/demo_video.mp4
 family-expenses-servicenow/ │── backend/ │   ├── business_rule.js             
 # Daily → Monthly aggregation code │   ├── relationship_refineQuery.js  
 # Daily ↔ Monthly relationship filter │ │── frontend/ │   └── screenshots/ │       ├── daily_expenses_form.png  
-# Screenshot of Daily Expenses form │       ├── monthly_expenses_form.png # Screenshot of Monthly Expenses form │       ├── related_list.png         
-# Screenshot showing related list │ │── docs/ │   ├── Documentation.pdf             # Full project documentation │   └── README-outline.docx           
-# Optional extra notes │ │── demo/ │   └── demo_video.mp4                # Demo recording (or YouTube link in README) │ │── README.md                         
+# Screenshot of Daily Expenses form │       ├── monthly_expenses_form.png
+# Screenshot of Monthly Expenses form │       ├── related_list.png         
+# Screenshot showing related list │ │── docs/ │   ├── Documentation.pdf            
+# Full project documentation │   └── README-outline.docx           
+# Optional extra notes │ │── demo/ │   └── demo_video.mp4               
+# Demo recording (or YouTube link in README) │ │── README.md                         
 # Project introduction & guide
