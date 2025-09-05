@@ -1,2 +1,30 @@
-# family-expenses-servicenow
-ServiceNow project to calculate Family Expenses (Daily → Monthly aggregation)
+# 🏦 Family Expenses Calculator (ServiceNow)
+
+## 📌 Overview
+This project calculates *Daily Expenses* and automatically aggregates them into *Monthly Expenses* using ServiceNow.
+
+## ⚙ Modules
+- *Daily Expenses* → Users can enter daily spending with comments.  
+- *Monthly Expenses* → Automatically updated from daily records.  
+- *Relationship* → Daily records linked to Monthly record by Date.  
+
+## 🖥 Backend Scripts
+- backend/business_rule.js → Aggregates Daily Expenses into Monthly Expenses.  
+- backend/relationship_refineQuery.js → Shows only matching Daily records in Monthly related list.  
+
+## 🎨 Frontend Proof
+Screenshots available in frontend/screenshots/ folder:  
+- Daily Expenses Form  
+- Monthly Expenses Form  
+- Related List view  
+
+## 📑 Documentation
+Detailed project documentation available at:  
+/docs/Documentation.pdf
+
+## 🎥 Demo Video
+Demo video available in /demo/demo_video.mp4  
+(or [YouTube link here](#) if uploaded online).  
+
+## 📂 Repo Structure
+family-expenses-servicenow/ │── backend/ │   ├── business_rule.js              # Daily → Monthly aggregation code │   ├── relationship_refineQuery.js   # Daily ↔ Monthly relationship filter │ │── frontend/ │   └── screenshots/ │       ├── daily_expenses_form.png   # Screenshot of Daily Expenses form │       ├── monthly_expenses_form.png # Screenshot of Monthly Expenses form │       ├── related_list.png          # Screenshot showing related list │ │── docs/ │   ├── Documentation.pdf             # Full project documentation │   └── README-outline.docx           # Optional extra notes │ │── demo/ │   └── demo_video.mp4                # Demo recording (or YouTube link in README) │ │── README.md                         # Project introduction & guide
